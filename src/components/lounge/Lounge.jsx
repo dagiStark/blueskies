@@ -7,49 +7,43 @@ import plane3 from "../../assets/info/plane3.jpg";
 const Lounge = () => {
   return (
     <Fragment>
-      <div className="">
-        {/* left section */}
-
-        <section>
-          <div>
-            <p>Unaccompanied Minor Lounge</p>
-            <div>
+      <div className="flex flex-col md:flex-row items-center justify-between gap-8 mt-10 px-4 sm:px-10 md:px-20 lg:px-28">
+        {/* Left section */}
+        <section className="md:w-1/2">
+          <div className="flex flex-col items-start justify-center space-y-6">
+            <p className="text-3xl font-bold text-gray-800">
+              Unaccompanied Minor Lounge
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {loungeItems.map((item, index) => (
-                <div key={index} className="flex flex-col gap-y-4 py-4">
-                  <p className="font-bold text-lg">{item.title}</p>
-                  <p>{item.text}</p>
+                <div key={index} className="space-y-2">
+                  <p className="font-semibold text-lg text-gray-700">
+                    {item.title}
+                  </p>
+                  <p className="text-gray-600">{item.text}</p>
                 </div>
               ))}
             </div>
           </div>
         </section>
-        {/* ri section */}
-        <section className="">
+
+        {/* Right section for images */}
+        <section className="md:w-1/2 relative flex justify-center items-center">
           <div className="relative w-full h-full flex items-center justify-center">
-            {/* First Image */}
-            <div className="absolute translate-x-40 translate-y-40  opacity-90 transition-all duration-300 hover:scale-105">
+            {/* Image 1 */}
+            <div className="md:absolute md:translate-x-8 md:-translate-y-8  transition-transform duration-300 hover:scale-105">
               <img
                 src={plane1}
-                alt="plane image"
-                className="w-44 h-72 rounded-full shadow-lg"
+                alt="plane1"
+                className="w-40 h-60 md:w-44 md:h-72 rounded-full shadow-xl"
               />
             </div>
-
-            {/* Second Image */}
-            <div className="absolute translate-x-0 translate-y-60  opacity-95 transition-all duration-300 hover:scale-105">
-              <img
-                src={plane2}
-                alt="plane image"
-                className="w-48 h-76 rounded-full shadow-lg"
-              />
-            </div>
-
-            {/* Third Image */}
-            <div className="absolute translate-x-60 translate-y-60 opacity-90 transition-all duration-300 hover:scale-105">
+            {/* Image 3 */}
+            <div className="md:absolute md:translate-x-32 md:translate-y-32 transition-transform duration-300 hover:scale-105">
               <img
                 src={plane3}
-                alt="plane image"
-                className="w-44 h-72 rounded-full shadow-lg"
+                alt="plane3"
+                className="w-40 h-60 md:w-44 md:h-72 rounded-full shadow-xl"
               />
             </div>
           </div>

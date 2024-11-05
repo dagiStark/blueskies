@@ -79,7 +79,7 @@ export const loungeItems = [
     icon: ShieldCheck,
   },
   {
-    name: "Save More",
+    title: "Save More",
     text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nihil ipsum qui similique, esse aperiam.",
     icon: BookmarkPlus,
   },

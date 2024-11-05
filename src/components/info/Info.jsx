@@ -18,8 +18,8 @@ const Info = () => {
       </section>
       {/* info section */}
 
-      <section className="flex flex-col gap-y-10 py-20 px-10">
-        <div>
+      <section className="flex w-full gap-y-10 py-20 px-10">
+        <div className="w-1/2">
           {infoItems.map((item, index) => (
             <div key={index} className="flex flex-col gap-y-4 py-4">
               <p
@@ -37,15 +37,32 @@ const Info = () => {
           ))}
         </div>
 
-        <div>
-          <div>
-            <img src={plane1} alt="plane image" />
+        <div className="relative w-full h-full flex items-center justify-center">
+          {/* First Image */}
+          <div className="absolute translate-x-40 translate-y-40  opacity-90 transition-all duration-300 hover:scale-105">
+            <img
+              src={plane1}
+              alt="plane image"
+              className="w-44 h-72 rounded-full shadow-lg"
+            />
           </div>
-          <div>
-            <img src={plane2} alt="plane image" />
+
+          {/* Second Image */}
+          <div className="absolute translate-x-0 translate-y-60  opacity-95 transition-all duration-300 hover:scale-105">
+            <img
+              src={plane2}
+              alt="plane image"
+              className="w-48 h-76 rounded-full shadow-lg"
+            />
           </div>
-          <div>
-            <img src={plane3} alt="plane image" />
+
+          {/* Third Image */}
+          <div className="absolute translate-x-60 translate-y-60 opacity-90 transition-all duration-300 hover:scale-105">
+            <img
+              src={plane3}
+              alt="plane image"
+              className="w-44 h-72 rounded-full shadow-lg"
+            />
           </div>
         </div>
       </section>

@@ -70,17 +70,17 @@ export const infoItems = [
 export const supportItems = [
   {
     title: "Book & Relax",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nihil ipsum qui similique, esse aperiam.",
+    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. ",
     icon: NotepadText,
   },
   {
     title: "Smart Checklist",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nihil ipsum qui similique, esse aperiam.",
+    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. ",
     icon: ShieldCheck,
   },
   {
     title: "Save More",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nihil ipsum qui similique, esse aperiam.",
+    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
     icon: BookmarkPlus,
   },
 ];

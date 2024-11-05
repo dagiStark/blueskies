@@ -7,6 +7,11 @@ import {
   BookmarkPlus,
 } from "lucide-react";
 
+import Travel1 from "../assets/travelers/travel1.jpg";
+import Travel2 from "../assets/travelers/travel2.jpg";
+import Travel3 from "../assets/travelers/travel3.jpg";
+import Travel4 from "../assets/travelers/travel4.jpg";
+
 export const navItems = [
   {
     name: "Home",
@@ -108,24 +113,27 @@ export const travelersItems = [
   {
     name: "Mike Ross",
     placeholder: "Add guests",
-    img: UserIcon,
+    img: Travel1,
   },
   {
     name: "Lisa Smith",
     placeholder: "Add date",
-    img: Calendar,
+    img: Travel2,
   },
   {
     name: "Harvey Specter",
     placeholder: "Add date",
-    img: Calendar,
+    img: Travel3,
+  },
+  {
+    name: "Jessica Pearson",
+    placeholder: "Add date",
+    img: Travel4,
   },
 ];
 
 export const footerItems = [
   {
-    "Information" :{
-      
-    }
-  }
-]
+    Information: {},
+  },
+];

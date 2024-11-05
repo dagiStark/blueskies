@@ -1,7 +1,6 @@
 import { Fragment } from "react";
 import { loungeItems } from "@/constants";
 import plane1 from "../../assets/info/plane1.jpg";
-import plane2 from "../../assets/info/plane2.jpg";
 import plane3 from "../../assets/info/plane3.jpg";
 
 const Lounge = () => {

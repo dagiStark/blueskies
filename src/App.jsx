@@ -6,6 +6,7 @@ import Hero from './components/hero/Hero'
 import Search from './components/search/Search'
 import Info from './components/info/Info'
 import Lounge from './components/lounge/Lounge'
+import Support from './components/support/Support'
 
 function App() {
 
@@ -16,7 +17,9 @@ function App() {
       <Hero />
       <Search />
       <Info />
+      <Support />
       <Lounge />
+
    
     </Fragment>
   )

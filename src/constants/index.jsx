@@ -67,7 +67,7 @@ export const infoItems = [
   },
 ];
 
-export const loungeItems = [
+export const supportItems = [
   {
     title: "Book & Relax",
     text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nihil ipsum qui similique, esse aperiam.",
@@ -82,5 +82,24 @@ export const loungeItems = [
     title: "Save More",
     text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nihil ipsum qui similique, esse aperiam.",
     icon: BookmarkPlus,
+  },
+];
+
+export const loungeItems = [
+  {
+    title: "Help through the airport",
+    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nihil ipsum qui similique, esse aperiam.",
+  },
+  {
+    title: "Priority Boarding",
+    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nihil ipsum qui similique, esse aperiam.",
+  },
+  {
+    title: "Core on the flight",
+    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nihil ipsum qui similique, esse aperiam.",
+  },
+  {
+    title: "Chauffeur-drive services",
+    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nihil ipsum qui similique, esse aperiam.",
   },
 ];

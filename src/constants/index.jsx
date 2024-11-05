@@ -41,3 +41,21 @@ export const searchItems = [
     icon: Calendar,
   },
 ];
+
+export const infoItems = [
+  {
+    no: "01",
+    title: "Travel Requirements for Dubai",
+    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nihil ipsum qui similique, esse aperiam.",
+  },
+  {
+    no: "02",
+    title: "Chauffeur services at your arrival",
+    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nihil ipsum qui similique, esse aperiam.",
+  },
+  {
+    no: "03",
+    title: "Multi-risk travel insurance",
+    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nihil ipsum qui similique, esse aperiam.",
+  },
+];

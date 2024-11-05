@@ -8,10 +8,10 @@ const Info = () => {
   return (
     <Fragment>
       {/* upper section */}
-      <section>
-        <p>travel support</p>
-        <p>Plan Your Travel with confidence</p>
-        <p>
+      <section className="flex flex-col items-center justify-center gap-y-4 py-1 px-10">
+        <p className="text-xl text-gray-700">travel support</p>
+        <p className="text-3xl font-bold">Plan Your Travel with confidence</p>
+        <p className="text-xl text-gray-400">
           Find help with booking and travel plans, see what to expect along the
           journey
         </p>

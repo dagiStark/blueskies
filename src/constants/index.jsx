@@ -121,3 +121,11 @@ export const travelersItems = [
     img: Calendar,
   },
 ];
+
+export const footerItems = [
+  {
+    "Information" :{
+      
+    }
+  }
+]

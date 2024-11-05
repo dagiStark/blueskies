@@ -132,8 +132,92 @@ export const travelersItems = [
   },
 ];
 
-export const footerItems = [
+export const footerLinks = [
   {
-    Information: {},
+    name: "Information",
+    links: [
+      {
+        label: "Home",
+        href: '#'
+      },
+      {
+        label: "Explore",
+        href: '#'
+      },
+      {
+        label: "Flight Status",
+        href: '#'
+      },
+      {
+        label: "Travel",
+        href: '#'
+      },
+      {
+        label: "Check-in",
+        href: '#'
+      },
+      {
+        label: "Manage your booking",
+        href: '#'
+      },
+    ]
+  },
+  {
+    name: "Quick Guide",
+    links: [
+      {
+        label: "FAQ",
+        href: '#'
+      },
+      {
+        label: "How to",
+        href: '#'
+      },
+      {
+        label: "Features",
+        href: '#'
+      },
+      {
+        label: "Baggage",
+        href: '#'
+      },
+      {
+        label: "Route Map",
+        href: '#'
+      },
+      {
+        label: "Our Communities",
+        href: '#'
+      },
+    ]
+  },
+  {
+    name: "Additional Info.",
+    links: [
+      {
+        label: "Chaulfuer",
+        href: '#'
+      },
+      {
+        label: "Our Partners",
+        href: '#'
+      },
+      {
+        label: "Destination",
+        href: '#'
+      },
+      {
+        label: "Careers",
+        href: '#'
+      },
+      {
+        label: "Transportation",
+        href: '#'
+      },
+      {
+        label: "Program Rules",
+        href: '#'
+      },
+    ]
   },
 ];

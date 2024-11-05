@@ -15,6 +15,7 @@ const Navbar = () => {
               src={FlightIcon}
               alt="flight icon"
               className="w-12 h-12 hidden md:flex"
+              loading="lazy"
             />
             <p className="block md:hidden font-bold text-3xl text-black ">
               Blue Skies

@@ -5,7 +5,7 @@ import { Facebook, Linkedin, Twitter, Youtube } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="">
       <div className="bg-black/5 sm:mt-10">
         <section className="bg-gray-100 dark:bg-gray-800 p-8 rounded-lg shadow-lg space-y-6 flex flex-col md:items-center md:justify-between md:space-y-0 md:gap-4">
           {/* Title */}
@@ -38,6 +38,7 @@ const Footer = () => {
                   src={PlaneLogo}
                   alt="plane logo"
                   className="mx-auto md:mx-0 w-24 h-24"
+                  loading="lazy"
                 />
               </div>
 
@@ -77,7 +78,9 @@ const Footer = () => {
             </div>
           </div>
         </section>
+
       </div>
+      <p className="items-center text-center py-3 font-mono">Copyright © 2023 Blue Skies. All rights reserved.</p>
     </footer>
   );
 };

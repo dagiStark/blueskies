@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import PlaneImage from "../../assets/hero/pngegg.png";
+import Morning from "../../assets/hero/morning.jpg";
 
 const Hero = () => {
   return (
@@ -20,11 +21,19 @@ const Hero = () => {
 
         {/* image section */}
         <div className="flex flex-col items-center justify-center gap-y-10 sm:py-20 px-10 relative sm: md: lg:">
-          <div className="bg-customBg  sm:w-[500px] sm:h-[150px] md:w-[700px] md:h-[200px] lg:w-[800px] lg:h-[300px] rounded-full"></div>
+          <div className=" ">
+            <img
+              src={Morning}
+              alt="morning"
+              className=" sm:w-[500px] sm:h-[150px] md:w-[700px] md:h-[200px] lg:w-[800px] lg:h-[300px] rounded-full"
+              loading="lazy"
+            />
+          </div>
           <img
             src={PlaneImage}
+            loading="lazy"
             alt="plane image"
-            className=" sm:absolute top-0 left-0 -translate-y-0 md:-translate-y-8 lg:-translate-y-12 sm:w-[500px]  md:w-[700px] lg:w-full lg:h-full"
+            className="absolute top-0 left-0 -translate-y-0 md:-translate-y-8 lg:-translate-y-12 sm:w-[500px]  md:w-[700px] lg:w-full lg:h-full"
           />
         </div>
       </section>

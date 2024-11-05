@@ -4,7 +4,10 @@ import { travelersItems } from "@/constants";
 const Travelers = () => {
   return (
     <Fragment>
-      <section className="flex flex-col items-center justify-center gap-y-4 py-10 px-4 mt-28">
+      <section
+        className="flex flex-col items-center justify-center gap-y-4 py-10 px-4 mt-28"
+        data-aos="fade-up-right"
+      >
         <div>
           <p className="text-4xl font-bold text-gray-700">
             Top travelers of this month

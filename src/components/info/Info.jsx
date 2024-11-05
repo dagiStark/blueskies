@@ -7,7 +7,7 @@ import plane3 from "../../assets/info/plane3.jpg";
 const Info = () => {
   return (
     <Fragment>
-      <div className="flex flex-col px-3 sm:px-28 sm:mt-24 w-full">
+      <div className="flex flex-col px-3 sm:px-28 sm:mt-24 w-full" data-aos="zoom-out-right">
         {/* upper section */}
         <section className="flex flex-col items-center justify-center gap-y-4 py-1 px-3 sm:px-10 text-center">
           <p className="text-xl text-gray-700">travel support</p>
@@ -45,6 +45,7 @@ const Info = () => {
                 src={plane1}
                 alt="plane image"
                 className="w-44 h-72 sm:w-52 sm:h-80 rounded-full shadow-lg"
+                loading="lazy"
               />
             </div>
 
@@ -54,6 +55,7 @@ const Info = () => {
                 src={plane2}
                 alt="plane image"
                 className="w-44 h-72 sm:w-52 sm:h-80 rounded-full shadow-lg"
+                loading="lazy"
               />
             </div>
 
@@ -63,6 +65,7 @@ const Info = () => {
                 src={plane3}
                 alt="plane image"
                 className="w-44 h-72 sm:w-52 sm:h-80 rounded-full shadow-lg"
+                loading="lazy"
               />
             </div>
           </div>

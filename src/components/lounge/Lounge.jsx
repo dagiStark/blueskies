@@ -6,7 +6,10 @@ import plane3 from "../../assets/info/plane3.jpg";
 const Lounge = () => {
   return (
     <Fragment>
-      <div className="flex flex-col md:flex-row items-center justify-between gap-8 mt-10 px-4 sm:px-10 md:px-20 lg:px-28">
+      <div
+        className="flex flex-col md:flex-row items-center justify-between gap-8 mt-10 px-4 sm:px-10 md:px-20 lg:px-28"
+        data-aos="fade-up-right"
+      >
         {/* Left section */}
         <section className="md:w-1/2">
           <div className="flex flex-col items-start justify-center space-y-6">
@@ -35,6 +38,7 @@ const Lounge = () => {
                 src={plane1}
                 alt="plane1"
                 className="w-40 h-60 md:w-44 md:h-72 rounded-full shadow-xl"
+                loading="lazy"
               />
             </div>
             {/* Image 3 */}
@@ -43,6 +47,7 @@ const Lounge = () => {
                 src={plane3}
                 alt="plane3"
                 className="w-40 h-60 md:w-44 md:h-72 rounded-full shadow-xl"
+                loading="lazy"
               />
             </div>
           </div>

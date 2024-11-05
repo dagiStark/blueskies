@@ -5,7 +5,7 @@ import { supportItems } from "@/constants";
 const Support = () => {
   return (
     <Fragment>
-      <div className="flex flex-col items-center justify-center bg-black/5 py-20">
+      <div className="flex flex-col items-center justify-center bg-black/5 py-20" data-aos="zoom-out-right" data-aos-duration="1000">
         {/* upper section */}
         <section>
           <div className="flex flex-col md:flex-row items-center justify-between gap-x-24 gap-y-4">
@@ -22,7 +22,7 @@ const Support = () => {
 
         {/* lower section */}
         <section>
-          <div className="grid grid-cols-1 sm:grid-cols-3 md:flex items-center justify-center mt-10 gap-x-5 gap-y-2">
+          <div className="grid grid-cols-1 sm:grid-cols-3 md:flex items-center justify-center mt-10 gap-x-5 gap-y-2" >
             {supportItems.map((item, index) => (
               <div
                 key={index}

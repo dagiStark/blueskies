@@ -1,4 +1,4 @@
-import { Calendar, MapIcon, UserIcon } from "lucide-react";
+import { Calendar, MapPin, UserIcon } from "lucide-react";
 
 export const navItems = [
   {
@@ -23,7 +23,7 @@ export const searchItems = [
   {
     name: "Location",
     placeholder: "where do you want to go",
-    icon: MapIcon,
+    icon: MapPin,
   },
   {
     name: "Travelers",

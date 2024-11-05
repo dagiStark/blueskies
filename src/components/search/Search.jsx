@@ -14,23 +14,26 @@ const Search = () => {
           <p>First Class</p>
         </div>
       </section>
+
       {/* search section */}
-      <section>
-        <div>
+      <section className="flex items-center justify-center gap-x-24">
+        <div className="flex items-center gap-x-16">
           {searchItems.map((item, index) => (
             <div
               key={index}
-              className="flex items-center justify-between gap-x-10 py-4 px-24 rounded-full w-1/2 bg-black/10 text-gray-600"
+              className="flex items-center justify-center gap-x-2 "
             >
-              <p>{item.name}</p>
-              <Input placeholder={item.placeholder} />
-              <item.icon />
+              <item.icon className="text-gray-600" />
+              <div className="flex flex-col">
+                <p className="font-bold text-lg">{item.name}</p>
+                <Input placeholder={item.placeholder} className=" h-[20px]" />
+              </div>
             </div>
           ))}
         </div>
 
-        <div>
-          <Button className="bg-customBg">Search Flight</Button>
+        <div className="flex items-center justify-center">
+          <Button  className="bg-customBg px-10 rounded-full">Search Flight</Button>
         </div>
       </section>
     </Fragment>

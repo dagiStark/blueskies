@@ -1,4 +1,11 @@
-import { Calendar, MapPin, UserIcon } from "lucide-react";
+import {
+  Calendar,
+  MapPin,
+  UserIcon,
+  NotepadText,
+  ShieldCheck,
+  BookmarkPlus,
+} from "lucide-react";
 
 export const navItems = [
   {
@@ -57,5 +64,23 @@ export const infoItems = [
     no: "03",
     title: "Multi-risk travel insurance",
     text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nihil ipsum qui similique, esse aperiam.",
+  },
+];
+
+export const loungeItems = [
+  {
+    title: "Book & Relax",
+    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nihil ipsum qui similique, esse aperiam.",
+    icon: NotepadText,
+  },
+  {
+    title: "Smart Checklist",
+    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nihil ipsum qui similique, esse aperiam.",
+    icon: ShieldCheck,
+  },
+  {
+    name: "Save More",
+    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nihil ipsum qui similique, esse aperiam.",
+    icon: BookmarkPlus,
   },
 ];

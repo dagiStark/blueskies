@@ -3,6 +3,7 @@ import { Fragment } from 'react'
 import './App.css'
 import Navbar from './components/navbar/Navbar'
 import Hero from './components/hero/Hero'
+import Search from './components/search/Search'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
     <Fragment>
       <Navbar />
       <Hero />
+      <Search />
    
     </Fragment>
   )

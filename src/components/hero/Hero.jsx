@@ -4,7 +4,10 @@ import PlaneImage from "../../assets/hero/pngegg.png";
 const Hero = () => {
   return (
     <Fragment>
-      <section className="flex flex-col items-center justify-center  py-20 px-10 overflow-hidden">
+      <section
+        className="flex flex-col items-center justify-center  py-20 px-10 overflow-hidden"
+        data-aos="zoom-in"
+      >
         {/* header section */}
         <div className="flex text-center">
           <p className="text-4xl md:text-5xl lg:text-7xl font-bold">

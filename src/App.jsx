@@ -7,6 +7,7 @@ import Search from './components/search/Search'
 import Info from './components/info/Info'
 import Lounge from './components/lounge/Lounge'
 import Support from './components/support/Support'
+import Travelers from './components/travelers/Travelers'
 
 function App() {
 
@@ -19,8 +20,7 @@ function App() {
       <Info />
       <Support />
       <Lounge />
-
-   
+      <Travelers />
     </Fragment>
   )
 }

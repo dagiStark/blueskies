@@ -103,3 +103,21 @@ export const loungeItems = [
     text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nihil ipsum qui similique, esse aperiam.",
   },
 ];
+
+export const travelersItems = [
+  {
+    name: "Mike Ross",
+    placeholder: "Add guests",
+    img: UserIcon,
+  },
+  {
+    name: "Lisa Smith",
+    placeholder: "Add date",
+    img: Calendar,
+  },
+  {
+    name: "Harvey Specter",
+    placeholder: "Add date",
+    img: Calendar,
+  },
+];
